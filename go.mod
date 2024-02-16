@@ -3,7 +3,7 @@ module github.com/davron112/krakend-logstash/v2
 go 1.17
 
 require (
-	github.com/davron112/krakend-gologging/v2 v2.0.1
+	github.com/davron112/krakend-gologging/v2 v2.0.3
 	github.com/davron112/lura/v2 v2.0.5
 )
 
