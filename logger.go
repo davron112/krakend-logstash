@@ -15,7 +15,7 @@ import (
 	"github.com/davron112/lura/v2/proxy"
 )
 
-const Namespace = "github_com/devopsfaith/krakend-logstash"
+const Namespace = "github_com/davron112/krakend-logstash"
 
 var (
 	ErrNothingToLog = errors.New("nothing to log")
@@ -58,7 +58,7 @@ func NewLogger(cfg config.ExtraConfig, ws ...io.Writer) (logging.Logger, error) 
 	return &Logger{loggr, serviceName}, nil
 }
 
-// Logger is a wrapper over a github.com/devopsfaith/krakend/logging logger
+// Logger is a wrapper over a github.com/davron112/krakend/logging logger
 type Logger struct {
 	logger      logging.Logger
 	serviceName string
